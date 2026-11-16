@@ -39,3 +39,5 @@
 .section-kicker span{transition:color .3s}
 @media(max-width:680px){.reveal-left,.reveal-right{transform:translate3d(0,28px,0)}}
 @media(prefers-reduced-motion:reduce){.reveal-up,.reveal-left,.reveal-right,.reveal-scale{opacity:1;transform:none;transition:none;will-change:auto}.scroll-progress{display:none}}
+
+.main-nav a.active-section{color:#fff!important;position:relative}.main-nav a.active-section:after{content:"";position:absolute;left:0;right:0;bottom:-9px;height:1px;background:var(--orange)}
